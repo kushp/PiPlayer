@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pieModal {
+    display: none;
+    text-align: center;
+}
+
+.titleMod .ui-dialog-titlebar {
+    background-image: none;
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.pieModal-pie {
+    margin-top: 8px;
+}
+
+/* START HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    min-width: 420px;
+    width: 100%;
+    background-color: #2980b9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-pi {
+    margin-left: 10px;
+    width: 41px;
+    height: 40px;
+    background-image: url('../img/pi.png');
+}
+
+.header-tools {
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-icon {
+    display: inline-block;
+    color: white;
+    font-size: 24pt;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.header-count {
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.slider {
+    margin-left: 16px;
+    width: 200px;
+    line-height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* END HEADER */
+
+/* START CURSOR */
+.pointer {
+    cursor: pointer;
+}
+/* END CURSOR */
+
+/* START CONTENT */
+.content {
+    display: block;
+    margin-top: 65px;
+    min-width: 420px;
+    width: 100%;
+}
+
+.content-pi {
+    font-size: 20pt;
+    margin: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+/* END CONTENT */
+
+/* START FLOAT CLASSES */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+/* END FLOAT CLASSES */
+
+/* START ICONS */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-xboftl');
+	src:url('../fonts/icomoon.eot?#iefix-xboftl') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-xboftl') format('woff'),
+		url('../fonts/icomoon.ttf?-xboftl') format('truetype'),
+		url('../fonts/icomoon.svg?-xboftl#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play3:before {
+    content: "\ea1c";
+}
+
+.icon-pause2:before {
+    content: "\ea1d";
+}
+
+.icon-loop2:before {
+    content: "\ea2e";
+}
+/* END ICONS */

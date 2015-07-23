@@ -1,0 +1,120 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M192 128l640 384-640 384z"
+				],
+				"attrs": [],
+				"tags": [
+					"play",
+					"player"
+				],
+				"defaultCode": 58245,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1001,
+				"order": 8,
+				"prevSize": 32,
+				"code": 59932,
+				"ligatures": "play3, player8",
+				"name": "play3"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 284
+		},
+		{
+			"icon": {
+				"paths": [
+					"M128 128h320v768h-320zM576 128h320v768h-320z"
+				],
+				"attrs": [],
+				"tags": [
+					"pause",
+					"player"
+				],
+				"defaultCode": 58246,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1002,
+				"order": 6,
+				"prevSize": 32,
+				"code": 59933,
+				"ligatures": "pause2, player9",
+				"name": "pause2"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 285
+		},
+		{
+			"icon": {
+				"paths": [
+					"M889.68 166.32c-93.608-102.216-228.154-166.32-377.68-166.32-282.77 0-512 229.23-512 512h96c0-229.75 186.25-416 416-416 123.020 0 233.542 53.418 309.696 138.306l-149.696 149.694h352v-352l-134.32 134.32z",
+					"M928 512c0 229.75-186.25 416-416 416-123.020 0-233.542-53.418-309.694-138.306l149.694-149.694h-352v352l134.32-134.32c93.608 102.216 228.154 166.32 377.68 166.32 282.77 0 512-229.23 512-512h-96z"
+				],
+				"attrs": [],
+				"tags": [
+					"loop",
+					"repeat",
+					"player",
+					"reload",
+					"refresh",
+					"update",
+					"synchronize",
+					"arrows"
+				],
+				"defaultCode": 60839,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 9,
+				"id": 1550,
+				"prevSize": 32,
+				"code": 59950,
+				"ligatures": "loop2, repeat2",
+				"name": "loop2"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 302
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			}
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": true
+	}
+}
